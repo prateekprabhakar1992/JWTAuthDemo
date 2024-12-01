@@ -74,13 +74,14 @@ The application will start running on `http://localhost:5116` (or `https://local
 
 To authenticate and get a JWT, send a POST request to the `/api/auth/login` endpoint with the following JSON body:
 
-```json for User role
+```json 
+For User role
 {
   "username": "test",
   "password": "password"
 }
 
-```json for Admin role
+For Admin role
 {
   "username": "admin",
   "password": "secured"
